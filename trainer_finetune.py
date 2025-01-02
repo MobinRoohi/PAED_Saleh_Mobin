@@ -1,5 +1,5 @@
 '''
-Author: Luyao Zhu
+Author: Luyao Zhug
 Email: luyao001@e.ntu.edu.sg
 '''
 import argparse
@@ -599,6 +599,7 @@ def main(
 ):
     if synthetic:
         gen_synthetic(save_dir, path_train, path_dev, path_test)
+        print("Synthetic is doooooone!!!")
     logging.set_verbosity_info()
     logger = logging.get_logger("transformers")
 
